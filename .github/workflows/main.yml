@@ -27,7 +27,7 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
-        server: ${{ secrets.NIROGILIFE_FTP_HOST }}
-        username: ${{ secrets.NIROGILIFE_FTP_USERNAME }}
-        password: ${{ secrets.NIROGILIFE_FTP_PASSWORD }}
+        server: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        password: ${{ secrets.PASSWORD }}
         server-dir: domains/moreques.in/public_html/tailor-cut/
