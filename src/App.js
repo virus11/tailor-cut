@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <header className="App-header pt-5 mt-3">
+      <header className="App-header pt-5 mt-5">
         <img src="/logos/logo192.png" className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
