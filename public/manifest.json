@@ -1,6 +1,7 @@
 {
   "short_name": "Tailor Cut",
-  "name": "Tailor Cut | Clothes Sewing, Tailoring and more",
+  "name": "Tailor Cut",
+  "description" : "Clothes Sewing, Tailoring and more",
   "icons": [
     {
       "src": "logos/logo48.png",
