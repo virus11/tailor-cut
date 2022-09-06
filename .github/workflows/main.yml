@@ -8,6 +8,8 @@ on:
   push:
     paths:
       - 'build/**'
+      - '!public/**'
+      - '!src/**'
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
