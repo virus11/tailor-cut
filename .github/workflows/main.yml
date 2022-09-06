@@ -30,4 +30,4 @@ jobs:
         server: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
-        server-dir: /home/u956975518/domains/moreques.in/public_html/tailor-cut/
+        server-dir: public_html/tailor-cut/
