@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import 'mdb-react-ui-kit/dist/css/mdb.min.css'
 import App from './App';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
-import 'bootstrap/dist/css/bootstrap.css';
 // Put any other imports below so that CSS from your
 // components takes precedence over default styles.
 
