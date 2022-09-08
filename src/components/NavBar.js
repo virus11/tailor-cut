@@ -1,26 +1,31 @@
+import React from 'react';
 import {
   MDBContainer,
-  MDBNavbar,
-  MDBNavbarBrand
+  MDBNavbar
 } from 'mdb-react-ui-kit';
 import '../App.css'
+import { Link } from 'react-router-dom';
 
 function NavBar() {
+  //const [showNavNoTogglerSecond, setShowNavNoTogglerSecond] = useState(false);
   return (
     
-    <MDBNavbar  fixed='top' light bgColor='light'>
+    <div>
+     <MDBNavbar  fixed='top' light bgColor='light'>
     <MDBContainer>
-      <MDBNavbarBrand href='#'>
+     
+    <Link to="/" className="fs-4 text-dark">
         <img
           src='/logos/logo96.png'
           height='30'
           alt=''
-          loading='lazy'
-        />
+          loading='lazy' className="pe-2"
+        />  
         Tailor Cut
-      </MDBNavbarBrand>
+      </Link>
     </MDBContainer>
   </MDBNavbar>
+      </div>
   );
 }
 
