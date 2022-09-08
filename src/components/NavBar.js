@@ -11,7 +11,7 @@ function NavBar() {
   return (
     
     <div>
-     <MDBNavbar  fixed='top' light bgColor='light'>
+     <MDBNavbar  fixed='top'>
     <MDBContainer>
      
     <Link to="/" className="fs-4 text-dark">

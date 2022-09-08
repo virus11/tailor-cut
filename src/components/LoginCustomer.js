@@ -1,4 +1,4 @@
-import { MDBContainer, MDBRow, MDBCol, MDBCardBody, MDBCardTitle, MDBCardImage } from 'mdb-react-ui-kit'
+import { MDBContainer, MDBRow, MDBCol, MDBCardBody, MDBCardImage } from 'mdb-react-ui-kit'
 
 
 function LoginCustomer(){
@@ -9,7 +9,7 @@ function LoginCustomer(){
             
             <MDBCol md='6' className=''>
               <MDBCardBody>
-                <MDBCardTitle>Customer Login</MDBCardTitle>
+              <h1>Customer Login</h1>
               </MDBCardBody>
             </MDBCol>
             <MDBCol md='6' className=''>

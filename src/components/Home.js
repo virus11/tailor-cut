@@ -30,6 +30,7 @@ function Home() {
                 </MDBCol>
                 <MDBCol size='8' className='d-flex align-items-center'>
                   <MDBCardBody>
+                    
                     <MDBCardTitle>Manage your Tailoring Shop</MDBCardTitle>
                     <Link to="/login-business" className="btn btn-primary">Business Login</Link>
                   </MDBCardBody>
@@ -43,11 +44,11 @@ function Home() {
             
                 <MDBCol md='6' className=''>
                   <MDBCardBody>
-                    <MDBCardTitle>Connecting Customers and Tailoring Shops</MDBCardTitle>
+                    <h1>Connecting Customers and Tailoring Shops</h1>
                   </MDBCardBody>
                 </MDBCol>
                 <MDBCol md='6' className=''>
-                  <MDBCardImage src='/images/tailor-activities.jpg' alt='...' fluid style={{ maxWidth: 200}} />
+                  <MDBCardImage src='/images/tailor-activities.jpg' alt='...' fluid style={{ maxWidth: '60%'}} />
                 </MDBCol>
               </MDBRow> 
 
