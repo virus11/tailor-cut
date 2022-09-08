@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBar from './components/NavBar';
-import { MDBContainer, MDBRow, MDBCol, MDBBtn } from 'mdb-react-ui-kit'
+import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBCard, MDBCardBody, MDBCardTitle, MDBCardText, MDBCardImage } from 'mdb-react-ui-kit'
 
 function App() {
   return (
@@ -8,29 +8,45 @@ function App() {
       <NavBar />
 
       
-      <MDBContainer className="mt-5 pt-5">
+      <MDBContainer className="mt-5 pt-3">
         <MDBRow>
-        <MDBCol md='6'>
-        <div className="text-center">
-        <h3> Track your orders</h3>
-        <MDBBtn>Customer Login</MDBBtn>
-          <img src="/images/tailor-customer-new.jpg" className="img-fluid" alt="logo"/>
-        </div>
-        
 
-     
-      
+          <MDBCol md='6' className="mt-3">
+            <MDBCard>
+              <MDBRow>
+                <MDBCol size='4' className='d-flex align-items-center'>
+                  <MDBCardImage src='/images/tailor-customer-new.jpg' alt='...' fluid />
+                </MDBCol>
+                <MDBCol size='8'>
+                  <MDBCardBody>
+                    <MDBCardTitle>Track your orders</MDBCardTitle>
+                    <MDBCardText>
+                      <small className='text-muted'>Last updated 3 mins ago</small>
+                    </MDBCardText>
+                    <MDBBtn>Customer Login</MDBBtn>
+                  </MDBCardBody>
+                </MDBCol>
+              </MDBRow>
+            </MDBCard>
           </MDBCol>
-
-          <MDBCol md='6'>
-          <div className="text-center">  
-              <h3> Manage your Tailoring Business for Free</h3>
-              <MDBBtn>Login / Register</MDBBtn>       
-            </div>
-          <img src="/images/tailor-activities-new.jpg" className="img-fluid" alt="logo"/>
-            
-          </MDBCol>
-          
+          <MDBCol md='6' className="mt-3">
+            <MDBCard>
+              <MDBRow>
+                <MDBCol size='4' className='d-flex align-items-center'>
+                  <MDBCardImage src='/images/tailor-activities-new.jpg' alt='...' fluid />
+                </MDBCol>
+                <MDBCol size='8'>
+                  <MDBCardBody>
+                    <MDBCardTitle>Manage your Tailoring Business for Free</MDBCardTitle>
+                    <MDBCardText>
+                      <small className='text-muted'>Last updated 3 mins ago</small>
+                    </MDBCardText>
+                    <MDBBtn>Login / Register</MDBBtn>
+                  </MDBCardBody>
+                </MDBCol>
+              </MDBRow>
+            </MDBCard>
+          </MDBCol>         
         </MDBRow>
       </MDBContainer>
      
