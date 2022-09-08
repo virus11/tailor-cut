@@ -43,16 +43,15 @@ function App() {
           </MDBCol>         
         </MDBRow>
 
-        <MDBRow className="mt-5">
+        <MDBRow className="mt-3 d-flex align-items-center text-center">
             
-                <MDBCol md='8' className='d-flex align-items-center'>
+                <MDBCol md='6' className=''>
                   <MDBCardBody>
-                    <MDBCardTitle>Manage your Tailoring Shop</MDBCardTitle>
-                    <MDBBtn>Business Login</MDBBtn>
+                    <MDBCardTitle>Connecting Customers and Tailoring Shops</MDBCardTitle>
                   </MDBCardBody>
                 </MDBCol>
-                <MDBCol md='4' className='d-flex align-items-center'>
-                  <MDBCardImage src='/images/tailor-activities.jpg' alt='...' fluid />
+                <MDBCol md='6' className=''>
+                  <MDBCardImage src='/images/tailor-activities.jpg' alt='...' fluid style={{ maxWidth: 200}} />
                 </MDBCol>
               </MDBRow> 
 
